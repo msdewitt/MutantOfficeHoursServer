@@ -1,0 +1,19 @@
+{
+  "name": "mutant-list-server",
+  "version": "0.1.0",
+  "description": "A node server to interact with firebase and send texts and emails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msdewitt/MutantOfficeHoursServer.git"
+  },
+  "author": "Matheu DeWitt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msdewitt/MutantOfficeHoursServer/issues"
+  },
+  "homepage": "https://github.com/msdewitt/MutantOfficeHoursServer#readme"
+}
