@@ -15,6 +15,15 @@ firebase.initializeApp({
   databaseURL: "https://mutant-officehours.firebaseio.com"
 });
 
+//Get reference to firebase
+var ref = firebase.database().ref();
+
+//Listen for new texts being created on firebase
+var textRef = ref.child('texts');
+textRef.on('child_added',function(snapshot){
+  console.log(snapshot.val());
+})
+
 server.listen(3030, function(){
   console.log('listening on http://localhost:3030');
 });
